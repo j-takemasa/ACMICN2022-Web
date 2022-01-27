@@ -1,0 +1,57 @@
+# Special considerations for the index page:
+# - track's title will be automatically added as a prefix
+# - the specified title will be downcased
+# - info: Workshop proposals due
+# - index page will show date only if important==true
+
+# All listed dates will appear in the specified order
+
+# main-registration:
+#   track: main
+#   info: Paper Registration Deadline (Long and Short)
+#   date: "<del>May 7, 2021</del>"
+#   important: true
+main-submission:
+  track: main
+  info: Paper Submission Deadline (Long and Short)
+  date: "May 28, 2022"
+  important: true
+# main-notification:
+#   track: main
+#   info: Acceptance Notification
+#   date: "<del>July 20, 2021</del>"
+#   important: true
+# main-due:
+#   track: main
+#   info: Camera Ready Due
+#   date: "<del>August 20, 2021</del>"
+#   important: true
+
+# tutorials-proposals:
+#   track: tutorials
+#   info: Proposals deadline
+#   date: "<del>July 25,</del> <del>August 2,</del> August 5, 2021"
+#   important: true
+# tutorials-notification:
+#   track: tutorials
+#   info: Notification of Acceptance
+#   date: "<del>August 1,</del> August 9, 2021"
+
+conference:
+  track: main
+  info: Conference
+  date: September 19–21, 2022
+  important: true
+
+# posters-submission:
+#   track: posters
+#   info: Submissions deadline
+#   date: "<del>August 3</del> August 12, 2021 11:59pm EDT"
+# posters-notification:
+#   track: posters
+#   info: Acceptance Notification
+#   date: "<del>August 10</del> August 18, 2021"
+# posters-due:
+#   track: posters
+#   info: Camera Ready Due
+#   date: "August 20, 2021 11:59pm EDT"
