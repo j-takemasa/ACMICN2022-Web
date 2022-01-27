@@ -1,6 +1,6 @@
-#  ACM ICN 2021 Web Site
+#  ACM ICN 2022 Web Site
 
-This repository contains code and data for the ACM ICN 2021 web site and is based on
+This repository contains code and data for the ACM ICN 2022 web site and is based on
 [https://github.com/conference-websites/ACM-ICN2020](https://github.com/conference-websites/ACM-ICN2020).
 
 ## License
