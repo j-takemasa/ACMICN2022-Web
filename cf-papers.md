@@ -15,11 +15,11 @@ Information-centric networking opens a new direction to construct networks by di
 - Identifying the challenges facing the Internet today: What are the root causes and how can we quantify whether and to what extent ICN-based solutions can address these challenges?
 - Design and implementation of information-centric solutions, including domain-specific designs of namespaces, case studies of ICN-based applications and computation in various domains such as the Internet of Things, edge computing, and social media, together with empirical evaluations.
 
-In addition to full (10 pages) and short (6 pages) technical papers, ACM ICN 2022 also encourages Systematization of Knowledge papers (10 pages), and short vision or position statements (2 pages; position papers may [also] inspire panel sessions). All submissions will be peer reviewed. Accepted submissions will be published by ACM in the Digital Library.
+In addition to full (10 pages) and short (6 pages) technical papers, ACM ICN 2022 also encourages Systematization of Knowledge papers (10 pages), and short vision or position statements (2 pages; position papers may also inspire panel sessions). All submissions will be peer reviewed. Accepted submissions will be published by ACM in the Digital Library.
 
 Papers can be submitted via [https://icn22.hotcrp.com/](https://icn22.hotcrp.com/) until May 28, 2022. More and up-to-date details are available on [https://conferences.sigcomm.org/acm-icn/2022](https://conferences.sigcomm.org/acm-icn/2022).
 
-In case of questions, please contact the TPC Chairs via icn22-tpc-chairs@sigcomm.org.
+In case of questions, please contact the TPC Chairs via [icn22-tpc-chairs@sigcomm.org](mailto:icn22-tpc-chairs@sigcomm.org).
 
 ## Submission Types
 
@@ -35,10 +35,27 @@ All submissions must follow the ACM SIGCOMM format (10pt font, sigconf option fo
 Submissions will be reviewed through a double-blind process, and evaluated on the basis of intellectual merit, originality, importance of contribution to the field, soundness and strength of evaluation (for full papers), quality and clarity of presentation, and appropriate comparison to related work.
 
 ## Submission Instructions
+Papers must be formatted for printing on Letter-sized (8.5" by 11") 
+paper. Paper text blocks must follow ACM guidelines: double-column, with 
+each column 9.25" by 3.33", 0.33" space between columns. Each column 
+must use 10-point font or larger, and contain no more than 55 lines of 
+text.
+
+Please, use the current [ACM 
+template](https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-primary.zip), 
+and the following configuration:
+
+* \documentclass[10pt,sigconf,anonymous]{acmart}
+* \settopmatter{printacmref=false, printccs=false, printfolios=true}
+* \setcopyright{none}
+* \subtitle{Paper \# <HotCRP ID>, XXX pages}
+
+SoK papers should include "SoK:" in the title, vision or position 
+statements should include "Statement:".
 
 Register and submit your paper by the deadline in the conference submission site: [https://icn22.hotcrp.com/](https://icn22.hotcrp.com/). ACM ICN follows a double-blind reviewing process, details see below.
 
-If you have any questions about submitting papers to ICN 2022, or encounter problems with the paper submission site, contact the TPC chairs before the deadline via [icn22-tpc-chairs@sigcomm.org](icn22-tpc-chairs@sigcomm.org).
+If you have any questions about submitting papers to ICN 2022, or encounter problems with the paper submission site, contact the TPC chairs before the deadline via [icn22-tpc-chairs@sigcomm.org](mailto:icn22-tpc-chairs@sigcomm.org).
 
 
 ## Submission Compliance
