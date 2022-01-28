@@ -1,6 +1,12 @@
 <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
   {% for committee in include.committees %}
-    <li data-role="list-divider">{{ committee.role }}</li>
+    <li data-role="list-divider">{{ committee.role }}
+      {% if committee.mail %}
+      <a href="mailto:{{ committee.mail }}?subject=[{{site.title}}]"style="text-decoration:none;float:right;">
+        📧
+      </a>
+      {% endif %}
+    </li>
     {% for person in committee.people %}
     <li data-icon="false">
       {% if person.homepage %}<a href="{{ person.homepage }}" target="_blank" rel="external">{% endif %}
