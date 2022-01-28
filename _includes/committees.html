@@ -2,8 +2,7 @@
   {% for committee in include.committees %}
     <li data-role="list-divider">{{ committee.role }}
       {% if committee.mail %}
-      <a href="mailto:{{ committee.mail }}?subject=[{{site.title}}]"style="text-decoration:none;float:right;">
-       ✉
+      <a href="mailto:{{ committee.mail }}?subject=[{{site.title}}]" class="ui-icon ui-icon-mail ui-btn-icon-right">
       </a>
       {% endif %}
     </li>
