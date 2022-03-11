@@ -31,8 +31,8 @@
   submenu:
     - name: "Call for Papers"
       url: /cf-papers.html
-#     - name: "Call for Tutorials"
-#       url: /cf-tutorials.html
+    - name: "Call for Tutorials"
+      url: /cf-tutorials.html
     # - name: "<del>Call for Posters and Demos</del>"
     #   url: /cf-posters.html
     - name: Call for Supporters
