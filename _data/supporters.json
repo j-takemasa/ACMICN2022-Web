@@ -1,5 +1,4 @@
 [
     [200, "acm.png", "https://www.acm.org/", "acm", 0, 301, 105, "other"],
     [200, "sig.png", "https://sigcomm.org/", "sig", 0, 843, 324, "other"],
-    [200, "ieice.png", "https://www.ieice.org/cs_r/eng/", "sig", 0, 850, 230, "other"],
 ]
