@@ -21,8 +21,8 @@
 # - name: "Accepted Posters&Demos"
 #   url: /accepted-posters.html
 
-# - name: Program Committee
-  # url: /tpc.html
+- name: Program Committee
+  url: /tpc.html
 
 - name: Organizing Committee
   url: /org-committee.html
