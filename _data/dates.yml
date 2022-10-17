@@ -1,0 +1,70 @@
+# Special considerations for the index page:
+# - track's title will be automatically added as a prefix
+# - the specified title will be downcased
+# - info: Workshop proposals due
+# - index page will show date only if important==true
+
+# All listed dates will appear in the specified order
+
+main-registration:
+  track: main
+  info: Paper Registration Deadline (Long and Short)
+  date: "<del>May 21, 2022</del> June 10, 2022 (Extended)"
+  important: true
+main-submission:
+  track: main
+  info: Paper Submission Deadline (Long and Short)
+  date: "<del>May 28, 2022</del> June 10, 2022 (Extended)"
+  important: true
+main-notification:
+  track: main
+  info: Acceptance Notification
+  date: "August 6, 2022"
+  important: true
+main-due:
+  track: main
+  info: Camera Ready Due
+  date: "August 26, 2022"
+  important: true
+
+tutorials-proposals:
+  track: tutorials
+  info: Proposals Deadline
+  date: "<del>May 27, 2022</del> July 15, 2022 (Extended)"
+  important: true
+tutorials-notification:
+  track: tutorials
+  info: Notification of Acceptance
+  date: "<del>July 8, 2022</del> July 29, 2022."
+
+conference:
+  track: main
+  info: Conference
+  date: September 19–21, 2022
+  important: true
+
+posters-submission:
+  track: posters
+  info: Submissions Deadline
+  date: "<del>July 25, 2022</del> August 13, 2022 (Extended)"
+posters-notification:
+  track: posters
+  info: Acceptance Notification
+  date: "<del>August 7, 2022</del> August 23, 2022"
+posters-due:
+  track: posters
+  info: Camera Ready Due
+  date: "August 26, 2022"
+
+student-grant-due:
+  track: student
+  info: Submission Deadline
+  date: "September 9, 2022"
+student-grant-notification:
+  track: student
+  info: Notification of Awards
+  date: "September 12, 2022"
+student-grant-acceptance:
+  track: student
+  info: Accept/Decline the Award
+  date: "September 16, 2022"

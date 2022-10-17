@@ -1,0 +1,11 @@
+[
+    [200, "cisco.png", "https://www.cisco.com", "cisco", 0, 912, 482, "gold"],
+    [200, "nict.png", "https://www.nict.go.jp/en/index.html", "nict", 0, 2500, 1411, "silver"],
+    [200, "brightechno.png", "https://brightechno.com/", "brightechno", 0, 1200, 476, "bronze"],
+    [200, "gtsystems.png", "https://www.gtsystems.io", "gtsystems", 0, 1896, 1437, "bronze"],
+    [200, "acm.png", "https://www.acm.org/", "acm", 0, 301, 105, "other"],
+    [200, "sig.png", "https://sigcomm.org/", "sig", 0, 843, 324, "other"],
+    [200, "ieice.png", "https://www.ieice.org/cs_r/eng/", "ieice", 0, 850, 230, "other"],
+    [200, "osakau-ist.png", "https://www.ist.osaka-u.ac.jp/english/", "osakau-ist", 0, 953, 204, "other"],
+    [200, "scat.png", "https://www.scat.or.jp/en/", "scat", 0, 13682, 4525, "other"],
+]

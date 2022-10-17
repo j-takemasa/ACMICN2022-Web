@@ -1,0 +1,65 @@
+---
+layout: default
+title: Conference Program
+og_tags:
+- property: og:description
+content: Program
+---
+
+<h2>Conference Program</h2>
+The conference consists of the in-person program at Japan time (JST) and the remote program at EU/US time. 
+<ul>
+  <li><a href="#in-person">In-person program</a>: The in-person program starts at 8:00 JST and the sessions are distributed to remote participants via WebEX.</li>
+  <li><a href="#remote">Remote program</a>: The remote program starts at 13:00 UTC/15:00 CEST/9:00 EDT/6:00 PDT. The recorded videos of the in-person program are streamed in realtime via WebEX. Each technical session is followed by a 15 minute live Q&A session.</li>
+</ul>
+Kindly note that the schedule below is tentative and subject to updates.
+
+
+<h2><span id="in-person">In-person Program</span></h2>
+<h3>Schedule at a Glance</h3>
+<p style="text-align: center;">
+  <a data-ajax="false" href="{% asset program-at-glance-program-at-glance-1i1Qe4KUOmScVHVFJOu-sDsehFtE1Uhz9Tfm7z_MS__o.pdf @path %}">Conference Schedule at a Glance  
+  {% asset program-at-glance-program-at-glance-1i1Qe4KUOmScVHVFJOu-sDsehFtE1Uhz9Tfm7z_MS__o.png style="max-width: 100%" %}</a>
+  </p>
+
+<h3>Schedule</h3>
+<div id="prog_ctrl" data-role="navbar">
+  <ul>
+    <li><a href="#" onClick="filter('monday');">Monday</a></li>
+    <li><a href="#" onClick="filter('tuesday');">Tuesday</a></li>
+    <li><a href="#" onClick="filter('wednesday');">Wednesday</a></li>
+    <li><a href="#" onClick="filter('all');" class="ui-btn-active ui-state-persist roundright">All Days</a></li>
+  </ul>
+</div>
+
+{% include program-online.html type="program" %}
+
+<h2><span id="remote">Remote Program</span></h2>
+<h3>Schedule at a Glance</h3>
+<p style="text-align: center;">
+  <a data-ajax="false" href="{% asset remote-program-at-glance.pdf @path %}">Conference Schedule at a Glance  
+  {% asset remote-program-at-glance.png style="max-width: 100%" %}</a>
+  </p>
+
+
+<h3>Schedule</h3>
+<div id="prog_ctrl" data-role="navbar">
+  <ul>
+    <li><a href="#" onClick="filter('monday');">Monday</a></li>
+    <li><a href="#" onClick="filter('tuesday');">Tuesday</a></li>
+    <li><a href="#" onClick="filter('wednesday');">Wednesday</a></li>
+    <li><a href="#" onClick="filter('all');" class="ui-btn-active ui-state-persist roundright">All Days</a></li>
+  </ul>
+</div>
+
+{% include program-online.html type="remote-program" %}
+
+{% comment %}
+
+  <h3>List of Accepted Posters</h3>
+  {% include program-online.html type="posters" %}
+
+  <h3>List of Accepted Demos</h3>
+  {% include program-online.html type="demos" %}
+
+{% endcomment %}
